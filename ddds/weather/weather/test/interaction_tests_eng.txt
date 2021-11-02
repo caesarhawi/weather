@@ -1,0 +1,39 @@
+--- main menu
+S> Do you want to know the temperature or know the current weather?
+
+--- temperature (incremental)
+S> Do you want to know the temperature or know the current weather?
+U> what is the temperature
+S> What city?
+U> London
+S> What country?
+U> United Kingdom
+S> The temperature is *
+
+--- temperature-unit (incremental)
+S> Do you want to know the temperature or know the current weather?
+U> what is the temperature in metric
+S> What city?
+U> Aleppo
+S> What country?
+U> Syria
+S> The temperature is *
+
+--- temperature-unit_imperial (incremental)
+S> Do you want to know the temperature or know the current weather?
+U> what is the temperature in imperial
+S> What city?
+U> London
+S> What country?
+U> United Kingdom
+S> The temperature is *
+
+--- temperature (one-shot)
+S> Do you want to know the temperature or know the current weather?
+U> what is the temperature in London United Kingdom
+S> The temperature is *
+
+--- weather (one-shot)
+S> Do you want to know the temperature or know the current weather?
+U> what is the temperature in Moscow Russia please
+S> The temperature is *
