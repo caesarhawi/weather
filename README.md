@@ -1,4 +1,4 @@
-# weather
+# The weather app
 
 Some issues I faced while training and testing RASA:
 
